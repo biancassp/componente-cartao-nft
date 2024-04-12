@@ -1,0 +1,90 @@
+body{
+background-color: hsl(217, 54%, 11%);
+display: flex;
+font-family: 'Outfit', sans-serif;
+}
+
+.cartao{
+background-color: hsl(216, 50%, 16%);
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+top: 0;
+margin: auto;
+width: 285px;
+height: 520px;
+text-align: center;
+align-items: center;
+border-radius: 30px;
+box-shadow: 0 0 0 15px  #0b182b,
+0 0 0 30px #0c192c;
+}
+
+.equilibrio{
+width: 250px;
+height: 250px;
+border-radius: 10px;
+margin-top: 20px;
+}
+
+.tit{
+color: white;
+text-align: left;
+font-weight: bold;
+font-size: 18px;
+padding-left: 18px;
+}
+
+.legenda{
+color: #8fa5c3;
+text-align: left;
+line-height: 25px;
+padding-left: 18px;
+}
+
+#ethereum{
+color: hsl(178, 100%, 50%);
+letter-spacing: 5px;
+}
+
+.num{
+color: hsl(178, 100%, 50%);
+display: inline-block;
+padding-right: 50px;
+}
+
+#relogio{
+color: #8fa5c3;
+letter-spacing: 5px;
+}
+
+.data{
+color: #8fa5c3;
+display: inline-block;
+}
+
+hr{
+margin-top: 20px;
+}
+
+.avatar{
+width: 30px;
+height: 30px;
+display: table;
+float: left;
+margin-left: 20px;
+margin-top: 10px;
+border: 1px solid;
+border-radius: 50%;
+border-color: white;
+
+}
+
+.criado{
+color: #8fa5c3;
+display: table-cell;
+float: left;
+margin-top: 15px;
+margin-left: 10px;
+}
